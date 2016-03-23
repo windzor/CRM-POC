@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="owner_wind_androiduser">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <ReferencingEntityName>wind_androiduser</ReferencingEntityName>
+    <ReferencedEntityName>Owner</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>OwnerId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description description="Owner Id" languagecode="1033" />
+      </Descriptions>
+    </RelationshipDescription>
+    <field name="ownerid" requiredlevel="systemrequired" imemode="auto" lookupstyle="single" lookupbrowse="0" lookuptypes="8, 9">
+      <IsCustomizable>1</IsCustomizable>
+      <IsRenameable>1</IsRenameable>
+      <CanModifySearchSettings>1</CanModifySearchSettings>
+      <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+      <IsSecured>0</IsSecured>
+      <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+      <IsAuditEnabled>1</IsAuditEnabled>
+      <displaynames>
+        <displayname description="Owner" languagecode="1033" />
+      </displaynames>
+    </field>
+  </EntityRelationship>
+</EntityRelationships>

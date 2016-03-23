@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedquery>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>0</CanBeDeleted>
+  <isquickfindquery>1</isquickfindquery>
+  <isprivate>0</isprivate>
+  <isdefault>1</isdefault>
+  <returnedtypecode>10005</returnedtypecode>
+  <savedqueryid>{a8702ea0-1813-49ff-8bde-6e660225d17a}</savedqueryid>
+  <layoutxml>
+    <grid name="resultset" object="10005" jump="wind_versionuser" select="1" icon="1" preview="1">
+      <row name="result" id="wind_androiduserid">
+        <cell name="wind_versionuser" width="300" />
+        <cell name="createdon" width="125" />
+      </row>
+    </grid>
+  </layoutxml>
+  <querytype>4</querytype>
+  <fetchxml>
+    <fetch version="1.0" mapping="logical">
+      <entity name="wind_androiduser">
+        <attribute name="wind_androiduserid" />
+        <attribute name="wind_versionuser" />
+        <attribute name="createdon" />
+        <order attribute="wind_versionuser" descending="false" />
+        <filter type="and">
+          <condition attribute="statecode" operator="eq" value="0" />
+        </filter>
+        <filter type="or" isquickfindfields="1">
+          <condition attribute="wind_versionuser" operator="like" value="{0}" />
+        </filter>
+      </entity>
+    </fetch>
+  </fetchxml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <LocalizedNames>
+    <LocalizedName description="Quick Find Active androidUser" languagecode="1033" />
+  </LocalizedNames>
+</savedquery>

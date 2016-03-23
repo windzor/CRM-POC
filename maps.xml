@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mapping>
+       <!-- Match specific named files to an alternate folder -->
+	   <!-- C:\Users\Administrator\Desktop\Powershell\Plug-ins\bin\Debug\SamplePlugins.dll -->
+       <!--<FileToFile map="windzorCRMPackage.TestPlugin.dll" to="C:\Users\Administrator\Desktop\WindzorCRMSolution\windzorCRMPackage\windzorCRMPackage\bin\Debug\windzorCRMPackage.TestPlugin.dll" />-->
+	
+       <!-- Match any file in and under WebResources to an alternate set of sub-folders -->
+       <!-- HTML -->
+       
+</Mapping>

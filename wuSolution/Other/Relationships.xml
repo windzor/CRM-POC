@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships>
+  <EntityRelationship Name="business_unit_wind_androiduser" />
+  <EntityRelationship Name="lk_wind_androiduser_createdby" />
+  <EntityRelationship Name="lk_wind_androiduser_modifiedby" />
+  <EntityRelationship Name="owner_wind_androiduser" />
+  <EntityRelationship Name="team_wind_androiduser" />
+  <EntityRelationship Name="user_wind_androiduser" />
+  <EntityRelationship Name="wind_androiduser_ActivityPointers" />
+  <EntityRelationship Name="wind_androiduser_Annotations" />
+  <EntityRelationship Name="wind_androiduser_Appointments" />
+  <EntityRelationship Name="wind_androiduser_AsyncOperations" />
+  <EntityRelationship Name="wind_androiduser_BulkDeleteFailures" />
+  <EntityRelationship Name="wind_androiduser_connections1" />
+  <EntityRelationship Name="wind_androiduser_connections2" />
+  <EntityRelationship Name="wind_androiduser_DuplicateBaseRecord" />
+  <EntityRelationship Name="wind_androiduser_DuplicateMatchingRecord" />
+  <EntityRelationship Name="wind_androiduser_Emails" />
+  <EntityRelationship Name="wind_androiduser_Faxes" />
+  <EntityRelationship Name="wind_androiduser_Letters" />
+  <EntityRelationship Name="wind_androiduser_PhoneCalls" />
+  <EntityRelationship Name="wind_androiduser_PrincipalObjectAttributeAccesses" />
+  <EntityRelationship Name="wind_androiduser_ProcessSession" />
+  <EntityRelationship Name="wind_androiduser_RecurringAppointmentMasters" />
+  <EntityRelationship Name="wind_androiduser_ServiceAppointments" />
+  <EntityRelationship Name="wind_androiduser_Tasks" />
+  <EntityRelationship Name="wind_androiduser_UserEntityInstanceDatas" />
+</EntityRelationships>
